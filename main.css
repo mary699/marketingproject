@@ -1,0 +1,318 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid black;
+    background-color: white;
+    height: 400vh;
+    margin: 0px 40px;
+}
+/* ---TOPBAR STYLING STARTS HERE */
+.top-bar{
+    /* border: 2px solid red; */
+    height:6vh;
+    display: flex;
+}
+.top-bar-left{
+/* border: 2px solid green; */
+flex: 3;
+
+}
+
+.top-bar-left img{
+    /* border: 2px solid red; */
+    margin-right: 20px;
+    margin-left: 20px;
+    clear: left;
+    width: 20px;
+}
+.top-bar-right{
+/* border: 2px solid blue; */
+flex: 3;
+
+
+}
+.top-bar-right img{
+    /* border: 2px solid red; */
+    margin-right: 30px;
+    float: right;
+    width: 20px;
+}
+
+/* ------TOPBAR STYLING ENDS HERE */
+/* -------NAVBAR SIDE STYLIG STARTS HERE */
+.navbar{
+    /* border: 2px solid red; */
+    height: 10vh;
+    display: flex;
+    background-color: #145dac;
+}
+.navbar-image{
+    /* border: 2px solid blue; */
+    width: 20%;
+    flex: 2;
+}
+.navbar-image img{
+    width: 20%;
+    height: 100%;
+}
+
+.navbar-menu{
+    /* border: 2px solid black; */
+    flex: 4;
+}
+.navbar-menu ul{
+    /* border: 2px solid #145dac; */
+ list-style-type: none;
+ float:right;
+ margin-top: 10px;
+
+}
+.navbar-menu ul li{
+    display: inline-block;
+    margin-right: 30px;
+    border: 2px solid rgba(236, 235, 235, 0.877);
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    
+}
+.navbar-menu a{
+    color: white;
+}
+.navbar-menu a:hover{
+    color: rgb(236, 14, 14);
+}
+/* -----NAVBAR STYLING ENDS HERE */
+
+/* BANNER SLIDER */
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 30s infinite;
+}
+.load{
+    animation: slide 2s;
+}
+.content{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.principal{
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+.principal h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.principal span{
+    color: blue;
+    font-size: 90px;
+}
+.principal p{
+    font-size: 20px;
+
+}
+@keyframes slide{
+
+0%{
+    background-image: url("../images/image1.jpg");
+}
+
+20%{
+    background-image: url("../images/image1.jpg");
+}
+20.01%{
+    background-image: url("../images/image2.jpg");
+}
+
+40%{
+    background-image: url("../images/image2.jpg");
+}
+40.01%{
+    background-image: url("../images/image1.jpg");
+}
+
+60%{
+    background-image: url("../images/image1.jpg");
+}
+60.01%{
+    background-image: url("../images/image2.jpg");
+}
+
+80%{
+    background-image: url("../images/image2.jpg");
+}
+80.01%{
+    background-image: url("../images/image1.jpg");
+}
+
+100%{
+    background-image: url("../images/image1.jpg");
+}
+
+}
+
+/* *************BANNER  ENDS HERE*/
+
+
+/* ----about section starts here */
+.about{
+    height: 120vh;
+    border: 2px solid red;
+}
+.about-main{
+    height: 110vh;
+    margin: 30px 40px;
+
+}
+.about-top{
+    height: 20vh;
+    margin-top: 10px;
+    text-align: center;
+}
+.about-top h1{
+    padding-bottom: 10px;
+}
+.about-top p{
+    line-height: 1.5rem;
+    color: lightslategray;
+    font-size: 13px;
+ 
+}
+.about-bottom{
+
+    height: 90vh;
+    display: flex;
+}
+.about-bottom-who{
+
+    flex: 2;
+    margin: 0px 10px;
+    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+}
+.about-bottom-mission{
+
+    flex: 2;
+    margin: 0px 30px;
+    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+}
+.about-bottom-team{
+    flex: 2;
+    margin: 0px 10px;
+    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+}
+.whoimg{
+    height: 40vh;
+    border-radius: 10px;
+}
+.whotext{
+    height: 35vh;
+  margin-top: 10px;
+}
+.missionimg{
+    height: 40vh;
+    border-radius: 10px;
+}
+.missiontext{
+    height: 35vh;
+    margin-top: 10px;
+}
+
+.teamimg{
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.teamtext{
+    height: 35vh;
+    margin-top: 10px;
+}
+
+
+
+.about-bottom p{
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 1.2rem;
+    padding-top: 10px;
+    color: grey;
+}
+
+
+/* -----ABOUT SECTION ENDS HERE */
+
+/* ----SERVICES STARTS HERE */
+.services{
+    /* border: 2px solid red; */
+    height: 60vh;
+   display: flex;
+   background-color: rgba(128, 128, 128, 0.309);
+}
+.services-text{
+/* border: 2px solid red; */
+flex: 3;
+}
+.services-text h1{
+    /* border: 2px solid red; */
+    margin-left: 50px;
+}
+.services-text p{
+    margin-left: 50px;
+    line-height: 1.5rem;
+
+}
+.services-text li{
+    margin-left: 50px;
+
+}
+
+
+
+.services-img{
+/* border: 2px solid greenyellow; */
+flex: 3;
+}
+.services-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+/* -----SERVICES ENDS HERE */
+
+/* ---CONTACT STARTS HERE */
+
+.contact{
+    border: 2px solid blue;
+    height: 50vh;
+  
+}
+form{
+    border: 2px solid red;
+    text-align: center;
+  
+
+}
+label{
+   
+}
+input{
+  
+}
+
+/* ---CONTACT ENDS HERE */
