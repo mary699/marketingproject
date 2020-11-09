@@ -113,7 +113,7 @@ flex: 3;
 }
 .principal span{
     color: blue;
-    font-size: 90px;
+    font-size: 70px;
 }
 .principal p{
     font-size: 20px;
@@ -286,30 +286,39 @@ flex: 3;
 
 .contact{
     /* border: 2px solid blue; */
-    height: 50vh;
+    height: 56vh;
 }
 
 .contactform{
-    height: 50vh;
+    height: 55vh;
     background-color: #145dac;
 }
 label{
     color: white;
     font-weight: bold;
     font-family: serif;
+    margin-left: 100px;
+}
+input{
+    width: 40%;
+    padding: 8px;
+    margin: 10px;
+}
+::placeholder{
+    font-size: 10px;
 }
 /* ---CONTACT ENDS HERE */
 
 /* ----fOOTER */
 footer{
-    height: 10vh;
-    background-color: rgba(128, 128, 128, 0.364);
+    height: 8vh;
+    background-color:black;
 }
 footer p{
-    color:#145dac;
+    color:white;
     font-weight: bolder;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     padding-top: 15px;
 }
 /* FOOTER */
