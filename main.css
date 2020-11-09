@@ -5,38 +5,32 @@
 }
 
 .container{
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.097);
     background-color: white;
-    height: 357vh;
     margin: 0px 40px;
 }
 /* ---TOPBAR STYLING STARTS HERE */
 .top-bar{
-    /* border: 2px solid red; */
     height:6vh;
     display: flex;
 }
 .top-bar-left{
-/* border: 2px solid green; */
 flex: 3;
 
 }
 
 .top-bar-left img{
-    /* border: 2px solid red; */
     margin-right: 20px;
     margin-left: 20px;
     clear: left;
     width: 20px;
 }
 .top-bar-right{
-/* border: 2px solid blue; */
 flex: 3;
 
 
 }
 .top-bar-right img{
-    /* border: 2px solid red; */
     margin-right: 30px;
     float: right;
     width: 20px;
@@ -45,13 +39,11 @@ flex: 3;
 /* ------TOPBAR STYLING ENDS HERE */
 /* -------NAVBAR SIDE STYLIG STARTS HERE */
 .navbar{
-    /* border: 2px solid red; */
     height: 10vh;
     display: flex;
     background-color: #145dac;
 }
 .navbar-image{
-    /* border: 2px solid blue; */
     width: 20%;
     flex: 2;
 }
@@ -173,7 +165,6 @@ flex: 3;
 /* ----about section starts here */
 .about{
     height: 120vh;
-    border: 2px solid red;
 }
 .about-main{
     height: 110vh;
@@ -203,18 +194,18 @@ flex: 3;
 
     flex: 2;
     margin: 0px 10px;
-    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.411);
 }
 .about-bottom-mission{
 
     flex: 2;
     margin: 0px 30px;
-    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.411);
 }
 .about-bottom-team{
     flex: 2;
     margin: 0px 10px;
-    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.411);
 }
 .whoimg{
     height: 40vh;
@@ -258,17 +249,14 @@ flex: 3;
 
 /* ----SERVICES STARTS HERE */
 .services{
-    /* border: 2px solid red; */
     height: 60vh;
    display: flex;
    background-color: rgba(128, 128, 128, 0.309);
 }
 .services-text{
-/* border: 2px solid red; */
 flex: 3;
 }
 .services-text h1{
-    /* border: 2px solid red; */
     margin-left: 50px;
 }
 .services-text p{
@@ -297,22 +285,23 @@ flex: 3;
 /* ---CONTACT STARTS HERE */
 
 .contact{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     height: 50vh;
 }
 
 .contactform{
-    border: 4px solid greenyellow;
     height: 50vh;
+    background-color: #145dac;
 }
-form{
-    
+label{
+    color: white;
+    font-weight: bold;
+    font-family: serif;
 }
 /* ---CONTACT ENDS HERE */
 
 /* ----fOOTER */
 footer{
-    border: 2px solid red;
     height: 10vh;
     background-color: rgba(128, 128, 128, 0.364);
 }
@@ -320,7 +309,7 @@ footer p{
     color:#145dac;
     font-weight: bolder;
     text-align: center;
-    font-size: 12px;
-    padding-top: 10px;
+    font-size: 16px;
+    padding-top: 15px;
 }
 /* FOOTER */
